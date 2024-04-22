@@ -350,6 +350,10 @@ public class Tutorial7Calculator {
         myFrame.setVisible(true); //should this at the end(if i put it first it won't show up
     }
 
+    //How to generate a random number
+
+    int randomNumber = (int)(Math.random()*1000)+1;//value between 0 - 999 +1
+
     public static void main(String[] args) {
         Tutorial7Calculator calculator1 = new Tutorial7Calculator();
     }
